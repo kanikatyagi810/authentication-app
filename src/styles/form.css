@@ -1,0 +1,83 @@
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9f9;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Left section for the image */
+.left-side {
+  width: 80%;
+  background: url('./image.png') no-repeat center center/cover;
+  filter: brightness(0.8);
+}
+
+/* Right section for the form */
+.right-side {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, rgba(93, 84, 209, 0.5), rgba(118, 140, 153, 0.9)); 
+}
+
+/* Styling the form */
+.form-container {
+  width: 80%;
+  max-width: 400px;
+  text-align: left;
+  background: white;
+  border: 1px solid #120d0d;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Slight shadow to make form stand out */
+}
+  
+  .form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-container input {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .btn, .form-container button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to right, #62768b, #636d77); 
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .btn, .form-container button:hover {
+    background-color: #020201;
+  }
+  .btn, .form-container .link {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .form-container a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .form-container a:hover {
+    text-decoration: underline;
+  }
+  
+  
